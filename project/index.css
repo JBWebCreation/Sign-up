@@ -1,0 +1,133 @@
+body {
+	width: 100%;
+	height: 100vh;
+	background-image: linear-gradient(to top right, #00E3D5, #0085FF);
+}
+
+body, html, a, p, img, form, input, h1 {
+	padding: 0;
+	margin: 0;
+}
+
+p, h1 {
+	font-family: 'Lato', sans-serif;
+}
+
+#container {
+	width: 80%;
+	height: 80%;
+	margin: 0 auto;
+	position: relative;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+  	background-color: #FBFBFB;
+  	border-radius: 50px;
+}
+
+#sectionLeft,
+#sectionRight {
+	height: 100%;
+}
+
+#sectionLeft {
+	float: left;
+	width: 39%;
+}
+
+#containerLeft {
+	width: 80%;
+	margin: 0 auto;
+	text-align: center;
+	height: 100%;
+}
+
+#containerLeft h1 {
+	margin-top: 50px;
+	color: #0074D7;
+}
+
+/* Form */
+
+#containerLeft form {
+	margin-top: 50px;
+	position: relative;
+	font-family: 'Lato', sans-serif;
+}
+
+#passwordCheck {
+	color: #A51111;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 62px;
+}
+
+input[type = "text"],
+input[type = "email"],
+input[type = "password"] {
+	text-indent: 60px;
+	width: 100%;
+	border: 3px solid #ccc;
+	border-radius: 50px;
+	height: 60px;
+	background-color: white;
+	margin-bottom: 50px;
+	font-size: 18px;
+	transition: 0.5s;
+}
+
+input[type = "submit"] {
+	border: none;
+	border-radius: 50px;
+	background-image: linear-gradient(to top right, #00D5E3, #0085FF);
+	width: 80%;
+	height: 60px;
+	font-size: 18px;
+	color: #fbfbfb;
+	font-family: 'Lato', sans-serif;
+	cursor: pointer;
+	margin-bottom: 30px;
+}
+
+input {
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 25%);
+}
+
+input:focus {
+	border: 3px solid #555;
+}
+
+#containerLeft a {
+	text-decoration: none;
+	color: #0074D7;
+	padding-left: 10px;
+}
+
+input[type = "submit"]:hover {
+	background: #0085FF;
+}
+
+.icon {
+	position: absolute;
+	font-size: 30px;
+	margin-top: 12px;
+	margin-left: 15px;
+	color: #0074D7;
+}
+
+/* Section right */
+
+#sectionRight {
+	width: 60%;
+	float: right;
+	overflow: hidden;
+	border-top-right-radius: 50px;
+	border-bottom-right-radius: 50px;
+}
+
+#sectionRight img {
+	height: 100%;
+	width: auto;
+	margin-left: -120px;
+}
+
